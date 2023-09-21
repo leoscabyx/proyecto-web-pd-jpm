@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol {
+    list-style-position: inside;
+}
+
+a {
+    color: inherit;
+    /* text-decoration: none; */
+}
+
+img, video, iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    background-color: #231f20;
+    color: #ffffff; /* #000000 */
+    font-family: 'Poppins', sans-serif;
+}
+
