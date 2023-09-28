@@ -22,5 +22,55 @@ body {
     background-color: #231f20;
     color: #ffffff; /* #000000 */
     font-family: 'Poppins', sans-serif;
+    /* background-image: url("images/covercon_sports_soccer_iconpattern\ \(1\).svg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+html {
+    font-size: 10px;
+}
+
+.header, .main, .footer {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.header {
+    border: 10px solid red;
+    display: flex; /* Propiedad obligatoria para utilizar flexbox y acomodar nuestro contenido */
+    flex-direction: column; /* Establecer Eje principal vertical (column), horzizontal (row) */
+    align-items: center; /* Controlar el eje secundario de los elementos hijos */
+    /* justify-content: center; */ /* Controlar el eje principal de los elementos hijos */
+    padding: 2rem;
+    /* margin: 2rem; */
+}
+
+.main {
+    border: 10px solid yellow;
+}
+
+.footer {
+    border: 10px solid purple;
+}
+
+.header__logo {
+    width: 100px;
+    height: 100px;
+}
+
+.header__titulo {
+    font-size: 4rem; /* 1rem -> 16px  */ /* 1rem -> 10px */
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0 0 2rem 0;
+    /* margin-bottom: 2rem; */
+}
+
+.header__parrafo {
+    text-align: center;
+    font-style: italic;
 }
 
