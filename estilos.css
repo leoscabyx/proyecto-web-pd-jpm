@@ -74,3 +74,87 @@ html {
     font-style: italic;
 }
 
+/* Seccion 1 */
+
+.seccion1 {
+    /* padding: 1rem 2rem 3rem 4rem; */
+    padding-top: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+.seccion1__item {
+    background-color: #f5b5cd;
+    border-radius: 0.5rem;
+}
+
+.seccion1__lista {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    list-style-type: none;
+}
+
+.seccion1__enlace {
+    /* background-color: red; */
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+/* Seccion 2 */
+
+.seccion2__mapa {
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Seccion 3 */
+
+.seccion3 {
+    padding: 2rem;
+}
+
+.seccion3__lista {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.seccion3__item {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+
+.seccion3__enlace {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #f5b5cd;
+}
+
+.seccion3__icono {
+    font-size: 5rem;
+    color: #f5b5cd;
+}
+
+/* Seccion 4 */
+
+.seccion4 {
+    padding: 2rem;
+}
+
+.seccion4__banner {
+    width: 100%;
+}
