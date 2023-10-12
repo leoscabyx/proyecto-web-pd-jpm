@@ -172,3 +172,13 @@ html {
     width: 150px;
     height: 150px;
 }
+
+/* Seccion 5 */
+
+.seccion5 {
+    padding: 2rem;
+}
+
+.seccion5__titulo {
+    text-align: center;
+}
