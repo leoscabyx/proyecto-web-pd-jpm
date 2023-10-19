@@ -38,26 +38,26 @@
         </section>
         <section class="seccion5">
             <h1 class="seccion5__titulo">Contactanos</h1>
-            <form>
+            <form action="https://formspree.io/f/xpzgbaqp" method="POST">
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
                 </div>
                 <div class="mb-3">
                     <label for="">Tipo de consulta</label>
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>Seleccione una opcion</option>
-                        <option value="1">Ayuda</option>
-                        <option value="2">Comprar</option>
-                        <option value="3">Devolucion</option>
+                    <select name="tipo" id="tipo" class="form-select" aria-label="Default select example">
+                        <option selected disabled>Seleccione una opcion</option>
+                        <option value="Ayuda">Ayuda</option>
+                        <option value="Comprar">Comprar</option>
+                        <option value="Devolucion">Devolucion</option>
                     </select>
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Comentario con tu consulta</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message"></textarea>
                   </div>
                 <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1" name="terminos">
                     <label class="form-check-label" for="exampleCheck1">Aceptas los terminos y condiciones</label>
                 </div>
                 <button type="submit" class="btn btn-primary seccion5__boton">Enviar</button>
