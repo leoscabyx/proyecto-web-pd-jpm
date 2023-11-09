@@ -37,21 +37,12 @@ html {
 }
 
 .header {
-    border: 10px solid red;
     display: flex; /* Propiedad obligatoria para utilizar flexbox y acomodar nuestro contenido */
     flex-direction: column; /* Establecer Eje principal vertical (column), horzizontal (row) */
     align-items: center; /* Controlar el eje secundario de los elementos hijos */
     /* justify-content: center; */ /* Controlar el eje principal de los elementos hijos */
     padding: 2rem;
     /* margin: 2rem; */
-}
-
-.main {
-    border: 10px solid yellow;
-}
-
-.footer {
-    border: 10px solid purple;
 }
 
 .header__logo {
@@ -193,9 +184,6 @@ html {
 
 /* Mobile First */
 @media (min-width: 900px) {
-    body {
-        background-color: rebeccapurple;
-    }
 
     .seccion4 {
         display: none;
